@@ -9,6 +9,7 @@ tbody td {
   height: 40px;
   background-color: skyblue;
   text-align: center;
+  word-wrap: break-word;
 }
 
 tr td:first-child {
@@ -28,6 +29,14 @@ tbody tr {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
+}
+
+.kamoku {
+  display: flex;
+}
+
+.kamoku input {
+  margin-right: 5px;
 }
 
 .jigen-wrap {
@@ -55,4 +64,35 @@ tbody tr {
   margin-top: 2px;
   margin-bottom: 0;
   box-shadow: none;
+}
+
+@media screen and (max-width:600px) { 
+  table {
+    width: 100%;
+  }
+
+  .kamoku-wrap {
+    width: 100%;
+    justify-content: left;
+    flex-wrap: wrap;
+  }
+
+  .kamoku-wrap select {
+    margin-right: 5px;
+  }
+
+  thead tr {
+    width: 15%;
+    height: 40px;
+    background-color: skyblue;
+    font-size: 15px;
+  }
+  
+  tbody td {
+    width: 15%;
+    height: 100px;
+    background-color: skyblue;
+    text-align: center;
+    font-size: 15px;
+  }
 }

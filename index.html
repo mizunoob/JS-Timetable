@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>JS-Timetable</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,8 +26,10 @@
       <option>木曜日</option>
       <option>金曜日</option>
     </select>
-    <input type="text" id="kamoku" value="科目名を入力">
-    <div class="Change_button" type="button" id="addSub">科目の追加</div>
+    <div class="kamoku">
+      <input type="text" id="kamoku" value="科目名を入力">
+      <div class="Change_button" type="button" id="addSub">科目の追加</div>
+    </div>
   </div>
 
   <div class="jigen-wrap">
@@ -80,6 +82,7 @@
       </tr>
     </tbody>
   </table>
+  <p></p>
   <script src="main.js"></script>
 </body>
 </html>
