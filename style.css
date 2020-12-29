@@ -66,6 +66,15 @@ tbody tr {
   box-shadow: none;
 }
 
+.sns-logo {
+  cursor: pointer;
+  margin: auto 5px;
+}
+
+footer {
+  display: flex;
+}
+
 @media screen and (max-width:600px) { 
   table {
     width: 100%;
