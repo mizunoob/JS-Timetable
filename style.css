@@ -1,0 +1,58 @@
+thead th {
+  width: 100px;
+  height: 40px;
+  background-color: skyblue;
+}
+
+tbody td {
+  width: 100px;
+  height: 40px;
+  background-color: skyblue;
+  text-align: center;
+}
+
+tr td:first-child {
+  font-weight: bold;
+}
+
+tbody tr {
+  display: none;
+}
+
+.Period1.show, .Period2.show, .Period3.show, .Period4.show, .Period5.show, .Period6.show, .Period7.show {
+  display: table-row;
+}
+
+.kamoku-wrap {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.jigen-wrap {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.Change_button {
+  width: 135px;
+  height: 25px;
+  line-height: 25px;
+  background-color: skyblue;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 2px;
+  box-shadow: 0 2px black;
+  user-select: none;
+  border-radius: 20%;
+}
+
+.Change_button:active {
+  margin-top: 2px;
+  margin-bottom: 0;
+  box-shadow: none;
+}
